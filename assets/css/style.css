@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.content {
+    min-height: 100%;
+    background-image: url("../images/concrete-texture.png");
+} 
+
+img {
+    width: 250px;
+    float: left;
+    margin-right: 5px;
+}
+h1 {
+    background-color: #4aaaa5;
+    padding: 20px;
+    display: inline-block;
+    margin: 0px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    margin-top: 0px;
+}
+.navLinks {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-right: 0px;
+    text-align: right;
+    /* display: inline-block; */
+    float: right;
+}
+
+.navLinks > a {
+    margin-left: 0px;
+    color: #777777;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.topNavbar {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    height: 76px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    text-align: center;
+}
+
+p, label, input, textarea {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #777777;
+}
+
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.2em;
+    border-style: none;
+    height: 30px;
+}
+
+hr {
+    background-color: #777777;
+    height: 2px;
+    border: 0px;
+}
+
+.field {
+    text-align: center;
+    margin-bottom: -50px;
+    
+}
+
+#container {
+    width: 926px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    padding: 15px;
+}
+
+#navContainer {
+    width: 960px;
+    display: inline-block;
+    text-align: left;
+}
+
+.push {
+    height: 50px;
+    
+}
+
+.footer {
+    height: 45px;
+    background-color: #666666;
+    color: #777777;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
+    vertical-align: bottom;
+}
+
+.footer > p {
+    vertical-align: bottom;
+    margin-bottom: 0px;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.thumbnail img {
+    width: 200px;
+}
+.caption {
+    position: absolute;
+    background: #4aaaa5;
+    top: 100px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.caption p {
+    position: relative;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    top: 5px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
