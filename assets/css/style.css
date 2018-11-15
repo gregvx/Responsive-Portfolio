@@ -105,6 +105,10 @@ hr {
   padding: 0px;
 }
 
+.card-img-overlay h5 a {
+    color: white;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
