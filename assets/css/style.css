@@ -87,6 +87,11 @@ hr {
     display: inline-block;
 }
 
+.card-placeholder {
+    width: 300px;
+    display: inline-block;
+}
+
 .card-img-overlay {
     position: absolute;
     background: #4aaaa5;
